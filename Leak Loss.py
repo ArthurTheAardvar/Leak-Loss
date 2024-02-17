@@ -1,6 +1,6 @@
-import sys #needed for readline function
+import sys
 
-cases = int(sys.stdin.readline().rstrip()) #get the first number of cases
+cases = int(input()) #get the first number of cases
 
 for i in range(cases): #go through the other lines
     
@@ -8,9 +8,9 @@ for i in range(cases): #go through the other lines
     line = line.split(" ") #split up the line by spaces
     
 
-    Total = (float(line[0]) / (float(line[1]) - float(line[2]))) * float(line[2])
+    Total = (int(line[0]) / (int(line[1]) - int(line[2]))) * int(line[2])
 
-    print(float(Total))
+    print(int(Total))
     
     
     
