@@ -10,7 +10,7 @@ for i in range(cases): #go through the other lines
 
     Total = (int(line[0]) / (int(line[1]) - int(line[2]))) * int(line[2])
 
-    print(int(Total))
+    print(round(Total))
     
     
     
